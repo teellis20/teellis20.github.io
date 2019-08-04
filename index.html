@@ -1,22 +1,73 @@
 <!DOCTYPE html>
-<html>
-    <header>
-        <title>My Personal Website</title>
-        <link rel="stylesheet" href="style.css" type="text/css">
-    </header>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Free Web tutorials">
+        <meta name="keywords" content="HTML,CSS,XML,JavaScript">            <meta name="author" content="John Doe">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Portfolio</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    </head>
 
-    <body>
-        <h1>Macho Man</h1>
+    <body style="background-image:url(images/gravel.png)">
+        
+                    <!-- Header -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-white">
+            <a style="margin-left: 35px; padding: 20px; width: 200px; background-color: teal; color: white; font-family: Georgia, 'Times New Roman', Times, serif; text-align: center; font-size: 25px" class="navbar-brand" href="#">Taylor Ellis</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+              <ul class="navbar-nav" style="margin-right: 15px">
+                <li class="nav-item active">
+                  <a class="nav-link" href="index.html">About<span class="sr-only">(current)</span> </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="portfolio.html">Portfolio </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
 
-        <img id="bio" src="https://cdn.sescoops.com/wp-content/uploads/2018/05/macho-man-champion-2017-05-11.jpg-e1526819293723-696x392.png" alt="Macho Man Randy Savage">
+                    <!-- Bio -->
 
+          <div style="background-color: white; margin: 50px;" class="container">
+            <div class="row">
+              <div class="col-sm-6">
+                
+                 <h3 style="font-family: Georgia, 'Times New Roman', Times, serif; color: teal; margin: 10px; padding-top: 10px" class="mt-0">About Me</h3>
+                 <hr>
 
+                 <img style="width: 275px; height: 200px; float: left; margin-left: 5px" src="images/sirius.jpg" class="mr-3" alt="Profile Picture">
+                 
+                 <blockquote class="blockquote" style="margin-left: 5px">
+                        <p style="font-family: Verdana, Geneva, Tahoma, sans-serif; color: teal; "class="mb-0">Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulumin vulputate at, tempus viverra turpis.  Nulla vel metus scelerisque ante sollicitudin.
+                        </p>
+                            <br>
+                        <p style="font-family: Verdana, Geneva, Tahoma, sans-serif; color: teal; "class="mb-0">Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus. </p>
+                 </blockquote>
+             </div>
+            </div>
+          </div>
 
-
-
+                        <!-- Footer -->
+        
+          <footer style="position: fixed; background: rgb(65, 65, 65); bottom: 0; width: 100%; text-align: center;"class="footer">
+                <div class="container">
+                    <span class="text-muted">Copyright</span>
+                </div>
+            </footer>
 
 
 
 
     </body>
+
+
+
 </html>
+
+
