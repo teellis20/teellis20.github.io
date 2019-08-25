@@ -1,73 +1,54 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="description" content="Free Web tutorials">
-        <meta name="keywords" content="HTML,CSS,XML,JavaScript">            <meta name="author" content="John Doe">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>My Portfolio</title>
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    </head>
+<html>
 
-    <body style="background-image:url(images/gravel.png)">
-        
-                    <!-- Header -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-white">
-            <a style="margin-left: 35px; padding: 20px; width: 200px; background-color: teal; color: white; font-family: Georgia, 'Times New Roman', Times, serif; text-align: center; font-size: 25px" class="navbar-brand" href="#">Taylor Ellis</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-              <ul class="navbar-nav" style="margin-right: 15px">
-                <li class="nav-item active">
-                  <a class="nav-link" href="index.html">About<span class="sr-only">(current)</span> </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="portfolio.html">Portfolio </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="contact.html">Contact</a>
-                </li>
-              </ul>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="assets/css/reset.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+</head>
+
+<body>
+
+    <header>
+        <div id="head">
+            <h1>Taylor Ellis</h1>
+        </div>    
+
+        <nav>
+            <ul>
+                <li>About</li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>  
+        </nav>
+    </header>
+    <hr>
+
+    <section id="aboutMe">
+        <div class="top">
+            <h2>About Me</h2>
+        </div>
+        <hr>
+
+        <div class="potatoes">
+                  
+            <p><img id="me" src="assets/images/sirius.jpg" alt="Taylor Ellis">My name is Taylor Ellis. I'm orignally from Cincinnati, Ohio, the home of the Bengals and the Reds. Another thing my hometown is famous for, is their special chili called Skyline, which I miss almost every single day. From Cincinnati, I moved to Charlotte, North Carolina where I met my Fiancee and lived for about 4 years. More recently, we moved to Seattle where we now share our home with a brand new poodle puppy named Sirius!</p>
+            <br>
+
+            <div id="p2">
+            <p>I have my degree in Psychology, but currently work at Geico as a liability claims adjuster. My hope is to one day make the switch to web and app development and once I retire, teach kids the wonderful ways of coding. </p>
+            <br>
+            <p>In my spare time I like to play video games, take pictues, go hiking and frequent sporting events. </p>
             </div>
-          </nav>
+        </div>
 
-                    <!-- Bio -->
-
-          <div style="background-color: white; margin: 50px;" class="container">
-            <div class="row">
-              <div class="col-sm-6">
-                
-                 <h3 style="font-family: Georgia, 'Times New Roman', Times, serif; color: teal; margin: 10px; padding-top: 10px" class="mt-0">About Me</h3>
-                 <hr>
-
-                 <img style="width: 275px; height: 200px; float: left; margin-left: 5px" src="images/sirius.jpg" class="mr-3" alt="Profile Picture">
-                 
-                 <blockquote class="blockquote" style="margin-left: 5px">
-                        <p style="font-family: Verdana, Geneva, Tahoma, sans-serif; color: teal; "class="mb-0">Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulumin vulputate at, tempus viverra turpis.  Nulla vel metus scelerisque ante sollicitudin.
-                        </p>
-                            <br>
-                        <p style="font-family: Verdana, Geneva, Tahoma, sans-serif; color: teal; "class="mb-0">Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus. </p>
-                 </blockquote>
-             </div>
-            </div>
-          </div>
-
-                        <!-- Footer -->
-        
-          <footer style="position: fixed; background: rgb(65, 65, 65); bottom: 0; width: 100%; text-align: center;"class="footer">
-                <div class="container">
-                    <span class="text-muted">Copyright</span>
-                </div>
-            </footer>
+    </section>
 
 
+    <footer>Copyright</footer>
 
-
-    </body>
-
+</body>
 
 
 </html>
-
-
