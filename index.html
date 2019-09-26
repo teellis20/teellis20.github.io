@@ -1,54 +1,188 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
-    <link rel="stylesheet" href="assets/css/reset.css" type="text/css">
-    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Taylor Ellis</title>
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+     <!-- Compiled and minified CSS -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">  
+     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+     <script src="https://kit.fontawesome.com/e05cdf6606.js" crossorigin="anonymous"></script>
+           
 </head>
-
 <body>
+    
+<!-- possible hero header with photo of me and brief intro -->
+<div class="hero-image">
+    <div class="hero-text">
+        <h1>My Name is Taylor Ellis</h1>
+        <h5>Welcome to My Portfolio</h5>
+    </div>
+</div>
 
-    <header>
-        <div id="head">
-            <h1>Taylor Ellis</h1>
-        </div>    
-
-        <nav>
-            <ul>
-                <li>About</li>
-                <li><a href="portfolio.html">Portfolio</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>  
-        </nav>
-    </header>
-    <hr>
-
-    <section id="aboutMe">
-        <div class="top">
-            <h2>About Me</h2>
+<div>
+<!-- Navbar -->
+   <nav class="pushpin" data-target="blue">
+        <div id="navdate" class="nav-wrapper">
+          <a href="https://github.com/Nolimits1/project-one" target="_blank" class="brand-logo left">Date Night</a>
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li class="active"><a href="#navdate">Date Night</a></li>
+            <li><a href="#navwars">Star Wars RPG</a></li>
+            <li><a href="#navtrain">Train Scheduler</a></li>
+            <li><a href="#navtrivia">Office Trivia</a></li>
+          </ul>
         </div>
-        <hr>
-
-        <div class="potatoes">
-                  
-            <p><img id="me" src="assets/images/sirius.jpg" alt="Taylor Ellis">My name is Taylor Ellis. I'm orignally from Cincinnati, Ohio, the home of the Bengals and the Reds. Another thing my hometown is famous for, is their special chili called Skyline, which I miss almost every single day. From Cincinnati, I moved to Charlotte, North Carolina where I met my Fiancee and lived for about 4 years. More recently, we moved to Seattle where we now share our home with a brand new poodle puppy named Sirius!</p>
-            <br>
-
-            <div id="p2">
-            <p>I have my degree in Psychology, but currently work at Geico as a liability claims adjuster. My hope is to one day make the switch to web and app development and once I retire, teach kids the wonderful ways of coding. </p>
-            <br>
-            <p>In my spare time I like to play video games, take pictues, go hiking and frequent sporting events. </p>
+      </nav>
+<!-- possible pushpin that has photo in middle and brief explanation on the side -->
+<div id="datenight">
+<div class="left-card" >
+<div class="row">
+        <div class="col s12 m6">
+          <div class="card z-depth-5">
+            <div class="card-image">
+              <img src="assets/images/datenight.gif">
+              <a href="https://nolimits1.github.io/project-one/" target="_blank" id="datebutton" class="btn-floating halfway-fab waves-effect waves-light"><i class="material-icons">add</i></a>
             </div>
+            <div class="card-content">
+              <p class="flow-text">This app was made as part of a group project. It implements an API from Yelp to randomize a restaurant in your chosen area. This app was made to help solve the ever lasting problem of not being able to decide on dinner. </p>
+            </div>
+          </div>
         </div>
+      </div>
+    </div>
+</div>
+</div>
 
-    </section>
+<div>
+<!-- navbar -->
+<nav class="pushpin" data-target="red">
+        <div id="navwars" class="nav-wrapper">
+          <a href="https://github.com/teellis20/starwars-game" target="_blank" class="brand-logo right">Star Wars RPG</a>
+          <ul id="nav-mobile" class="left hide-on-med-and-down">
+                <li><a href="#navdate">Date Night</a></li>
+                <li class="active"><a href="#navwars">Star Wars RPG</a></li>
+                <li><a href="#navtrain">Train Scheduler</a></li>
+                <li><a href="#navtrivia">Office Trivia</a></li>
+          </ul>
+        </div>
+      </nav>
+
+<div id="starwars">
+<div class="right-card">
+<div class="row">
+        <div class="col s12 m6 offset-m6">
+          <div class="card z-depth-5">
+            <div class="card-image">
+              <img src="assets/images/starwars.png">
+              <a href="https://teellis20.github.io/starwars-game/" target="_blank" id="warsbutton" class="btn-floating halfway-fab waves-effect waves-light"><i class="material-icons">add</i></a>
+            </div>
+            <div class="card-content">
+              <p class="flow-text">This is a Role Playing Game constructed using DOM manipulation. Select your character and battle the remaining players. Make sure to pay attention to health and the amount of damage taken/given with each attack.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+</div>
+
+<div>
+<!-- Navbar -->
+<nav class="pushpin" data-target="green">
+        <div id="navtrain" class="nav-wrapper">
+          <a href="https://github.com/teellis20/trainSchedule" target="_blank" class="brand-logo left">Train Scheduler</a>
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a href="#navdate">Date Night</a></li>
+            <li><a href="#navwars">Star Wars RPG</a></li>
+            <li class="active"><a href="#navtrain">Train Scheduler</a></li>
+            <li><a href="#navtrivia">Office Trivia</a></li>
+          </ul>
+        </div>
+      </nav>
+
+<div id="train">
+<div class="left-card">
+<div class="row">
+        <div class="col s12 m6">
+          <div class="card z-depth-5">
+            <div class="card-image">
+              <img src="assets/images/trainschedule.gif">
+              <a href="https://teellis20.github.io/trainSchedule/" target="_blank" id="trainbutton" class="btn-floating halfway-fab waves-effect waves-light"><i class="material-icons">add</i></a>
+            </div>
+            <div class="card-content">
+              <p class="flow-text">This app uses Firebase to store the Train Schedule for all past and present users. Feel free to add your own train if you can't find the one you're looking for.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+
+    <div>
+    <!-- navbar -->
+<nav class="pushpin" data-target="yellow">
+        <div id="navtrivia" class="nav-wrapper">
+          <a href="https://github.com/teellis20/TriviaGame" target="_blank" class="brand-logo right">The Office Trivia</a>
+          <ul id="nav-mobile" class="left hide-on-med-and-down">
+                <li><a href="#navdate">Date Night</a></li>
+                <li><a href="#navwars">Star Wars RPG</a></li>
+                <li><a href="#navtrain">Train Scheduler</a></li>
+                <li class="active"><a href="#navtrivia">Office Trivia</a></li>
+          </ul>
+        </div>
+      </nav>
+
+<div id="trivia">
+<div class="right-card">
+    <div class="row">
+        <div class="col s12 m6 offset-m6">
+            <div class="card z-depth-5">
+                <div class="card-image">
+                    <img src="assets/images/trivia.png">
+                        <a href="https://teellis20.github.io/TriviaGame/" target="_blank" id="triviabutton" class="btn-floating halfway-fab waves-effect waves-light"><i class="material-icons">add</i></a>
+                </div>
+                  <div class="card-content">
+                          <p class="flow-text">A trivia game that uses timers to make it more challenging. Based of the all-time great American TV show The Office</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+</div>
+
+<!-- collapsible for contact info, social media, resume -->
+<ul class="collapsible">
+        <li>
+          <div class="collapsible-header"><i class="material-icons">contact_mail</i>Contact Info</div>
+          <div class="collapsible-body"><h6>Email: teellis20@gmail.com</h6>
+            <h6>Phone: 513-338-6338</h6></div>
+        </li>
+        <li>
+          <div class="collapsible-header"><i class="material-icons">phone_android</i>Social Media</div>
+          <div class="collapsible-body">
+              <a href="https://www.linkedin.com/in/taylor-ellis8420" target="_blank"><h6>LinkedIn</h6></a>
+              <a href="https://github.com/teellis20" target="_blank"><h6>GitHub</h6></a>
+            </div>
+        </li>
+        <li>
+          <div class="collapsible-header"><i class="material-icons">description</i>Resume</div>
+          <div class="collapsible-body"><a href="assets/images/resume.pdf" target="_blank"><h6>Resume</h6></a></div>
+        </li>
+      </ul>
 
 
-    <footer>Copyright</footer>
-
+<script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+<!-- Compiled and minified JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script src="assets/logic/logic.js"></script>
 </body>
-
-
 </html>
