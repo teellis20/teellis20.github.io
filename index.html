@@ -17,22 +17,55 @@
     
 <!-- possible hero header with photo of me and brief intro -->
 <div class="hero-image">
-    <div class="container hero-text">
+    <div class="hero-text">
         <h1>My Name is Taylor Ellis</h1>
         <h5>Welcome to My Portfolio</h5>
     </div>
 </div>
 
+<!-- MOM N POP-->
 <div>
-<!-- Navbar -->
-   <nav class="pushpin" data-target="blue">
-        <div id="navdate" class="nav-wrapper">
-          <a href="https://github.com/Nolimits1/project-one" target="_blank" class="brand-logo left">Date Night</a>
-          <ul id="nav-mobile" class="right hide-on-med-and-down">
-            <li class="active"><a href="#navdate">Date Night</a></li>
+<nav class="pushpin" data-target="yellow">
+    <div id="navmom" class="nav-wrapper">
+      <a href="https://github.com/madeleineprak/Mom-N-Pop" target="_blank" class="brand-logo left">Mom 'n' Pop</a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li class="active"><a href="#navmom">Mom 'n' Pop</a></li>
+            <li><a href="#navdate">Date Night</a></li>
+            <li><a href="#navfriend">Friend Finder</a></li>
             <li><a href="#navwars">Star Wars RPG</a></li>
-            <li><a href="#navtrain">Train Scheduler</a></li>
-            <li><a href="#navtrivia">Office Trivia</a></li>
+      </ul>
+    </div>
+  </nav>
+  
+<div id="momnpop">
+<div class="right-card">
+<div class="row">
+    <div class="col s12 m6 offset-m6">
+        <div class="card z-depth-5">
+            <div class="card-image">
+                <a href="https://momnpop.herokuapp.com/" target="_blank"><img src="assets/images/momnpop.png"></a>
+                    <a href="https://github.com/madeleineprak/Mom-N-Pop" target="_blank" id="mombutton" class="btn-floating halfway-fab waves-effect waves-light"><i class="fab fa-github"></i></a>
+            </div>
+              <div class="card-content">
+                      <p class="flow-text">This open-source app helps connect users to local restaurants and shops suggested by other users of the application. The app uses Mapbox, a sequelize database and a Yelp api to gather the photos.  </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+</div>
+
+<!-- DATE NIGHT -->
+<div>
+   <nav class="pushpin" data-target="blue">
+     <div id="navdate" class="nav-wrapper">
+       <a href="https://github.com/Nolimits1/project-one" target="_blank" class="brand-logo right">Date Night</a>
+       <ul id="nav-mobile" class="left hide-on-med-and-down">
+         <li><a href="#navmom">Mom 'n' Pop</a></li>
+            <li class="active"><a href="#navdate">Date Night</a></li>
+            <li><a href="#navfriend">Friend Finder</a></li>
+            <li><a href="#navwars">Star Wars RPG</a></li>
           </ul>
         </div>
       </nav>
@@ -43,8 +76,8 @@
         <div class="col s12 m6">
           <div class="card z-depth-5">
             <div class="card-image">
-              <img src="assets/images/datenight.gif">
-              <a href="https://nolimits1.github.io/project-one/" target="_blank" id="datebutton" class="btn-floating halfway-fab waves-effect waves-light"><i class="material-icons">add</i></a>
+              <a href="https://nolimits1.github.io/project-one/" target="_blank"><img src="assets/images/datenight.gif"></a>
+              <a href="https://github.com/Nolimits1/project-one" target="_blank" id="datebutton" class="btn-floating halfway-fab waves-effect waves-light"><i class="fab fa-github"></i></a>
             </div>
             <div class="card-content">
               <p class="flow-text">This app was made as part of a group project. It implements an API from Yelp to randomize a restaurant in your chosen area. This app was made to help solve the ever lasting problem of not being able to decide on dinner. </p>
@@ -56,16 +89,50 @@
 </div>
 </div>
 
+<!--  FRIEND FINDER-->
 <div>
-<!-- navbar -->
+<nav class="pushpin" data-target="green">
+        <div id="navfriend" class="nav-wrapper">
+          <a href="https://github.com/teellis20/friendfinder" target="_blank" class="brand-logo left">Friend Finder</a>
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a href="#navmom">Mom'n'Pop</a></li>
+            <li><a href="#navdate">Date Night</a></li>
+            <li class="active"><a href="#navfriend">Friend Finder</a></li>
+            <li><a href="#navwars">Star Wars RPG</a></li>
+          </ul>
+        </div>
+      </nav>
+
+<div id="friend">
+<div class="left-card">
+<div class="row">
+        <div class="col s12 m6">
+          <div class="card z-depth-5">
+            <div class="card-image">
+                <a href="https://bestfriendfinder20.herokuapp.com/" target="_blank"><img src="assets/images/friendfinder.PNG"></a>
+              <a href="https://github.com/teellis20/friendfinder" target="_blank" id="friendbutton" class="btn-floating halfway-fab waves-effect waves-light"><i class="fab fa-github"></i></a>
+            </div>
+            <div class="card-content">
+              <p class="flow-text">This app matches the user with a best friend based off of the user's answers to a brief 10-question survey. The score is compared to the best friends' scores saved on the server. 
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+
+<!--  STARWARS -->
+<div>
 <nav class="pushpin" data-target="red">
         <div id="navwars" class="nav-wrapper">
           <a href="https://github.com/teellis20/starwars-game" target="_blank" class="brand-logo right">Star Wars RPG</a>
           <ul id="nav-mobile" class="left hide-on-med-and-down">
+            <li><a href="#navmom">Mom'n'Pop</a></li>
                 <li><a href="#navdate">Date Night</a></li>
+                <li><a href="#navfriend">Friend Finder</a></li>
                 <li class="active"><a href="#navwars">Star Wars RPG</a></li>
-                <li><a href="#navtrain">Train Scheduler</a></li>
-                <li><a href="#navtrivia">Office Trivia</a></li>
           </ul>
         </div>
       </nav>
@@ -76,8 +143,8 @@
         <div class="col s12 m6 offset-m6">
           <div class="card z-depth-5">
             <div class="card-image">
-              <img src="assets/images/starwars.PNG">
-              <a href="https://teellis20.github.io/starwars-game/" target="_blank" id="warsbutton" class="btn-floating halfway-fab waves-effect waves-light"><i class="material-icons">add</i></a>
+                <a href="https://teellis20.github.io/starwars-game/" target="_blank"><img src="assets/images/starwars.PNG"></a>
+              <a href="https://github.com/teellis20/starwars-game" target="_blank" id="warsbutton" class="btn-floating halfway-fab waves-effect waves-light"><i class="fab fa-github"></i></a>
             </div>
             <div class="card-content">
               <p class="flow-text">This is a Role Playing Game constructed using DOM manipulation. Select your character and battle the remaining players. Make sure to pay attention to health and the amount of damage taken/given with each attack.</p>
@@ -87,73 +154,6 @@
       </div>
     </div>
 </div>
-</div>
-
-<div>
-<!-- Navbar -->
-<nav class="pushpin" data-target="green">
-        <div id="navtrain" class="nav-wrapper">
-          <a href="https://github.com/teellis20/trainSchedule" target="_blank" class="brand-logo left">Train Scheduler</a>
-          <ul id="nav-mobile" class="right hide-on-med-and-down">
-            <li><a href="#navdate">Date Night</a></li>
-            <li><a href="#navwars">Star Wars RPG</a></li>
-            <li class="active"><a href="#navtrain">Train Scheduler</a></li>
-            <li><a href="#navtrivia">Office Trivia</a></li>
-          </ul>
-        </div>
-      </nav>
-
-<div id="train">
-<div class="left-card">
-<div class="row">
-        <div class="col s12 m6">
-          <div class="card z-depth-5">
-            <div class="card-image">
-              <img src="assets/images/trainschedule.gif">
-              <a href="https://teellis20.github.io/trainSchedule/" target="_blank" id="trainbutton" class="btn-floating halfway-fab waves-effect waves-light"><i class="material-icons">add</i></a>
-            </div>
-            <div class="card-content">
-              <p class="flow-text">This app uses Firebase to store the Train Schedule for all past and present users. Feel free to add your own train if you can't find the one you're looking for.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    </div>
-    </div>
-
-    <div>
-    <!-- navbar -->
-<nav class="pushpin" data-target="yellow">
-        <div id="navtrivia" class="nav-wrapper">
-          <a href="https://github.com/teellis20/TriviaGame" target="_blank" class="brand-logo right">The Office Trivia</a>
-          <ul id="nav-mobile" class="left hide-on-med-and-down">
-                <li><a href="#navdate">Date Night</a></li>
-                <li><a href="#navwars">Star Wars RPG</a></li>
-                <li><a href="#navtrain">Train Scheduler</a></li>
-                <li class="active"><a href="#navtrivia">Office Trivia</a></li>
-          </ul>
-        </div>
-      </nav>
-
-<div id="trivia">
-<div class="right-card">
-    <div class="row">
-        <div class="col s12 m6 offset-m6">
-            <div class="card z-depth-5">
-                <div class="card-image">
-                    <img src="assets/images/Trivia.PNG">
-                        <a href="https://teellis20.github.io/TriviaGame/" target="_blank" id="triviabutton" class="btn-floating halfway-fab waves-effect waves-light"><i class="material-icons">add</i></a>
-                </div>
-                  <div class="card-content">
-                          <p class="flow-text">A trivia game that uses timers to make it more challenging. Based off the all-time great American TV show The Office</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-    </div>
 </div>
 
 <!-- collapsible for contact info, social media, resume -->

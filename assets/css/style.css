@@ -59,13 +59,13 @@ img {
     padding: 100px 0 100px 0;
 }
 
-#train {
-    background-image: url("../images/trainback.png");
+#friend {
+    background-image: url("../images/friendback.png");
     padding: 100px 0 100px 0;
 }
 
-#trivia {
-    background-image: url("../images/triviaback.png");
+#momnpop {
+    background-image: url("../images/momback.png");
     padding: 100px 0 100px 0;
 }
 
@@ -83,12 +83,12 @@ img {
     background-color: #9e4637;
 }
 
-#navtrain, #trainbutton {
-    background-color: #364d55;
+#navfriend, #friendbutton {
+    background-color: #dea347;
 }
 
-#navtrivia, #triviabutton {
-    background-color: #dea347;
+#navmom, #mombutton {
+    background-color: #364d55;
 }
 
 /* Class for when element is above threshold */
