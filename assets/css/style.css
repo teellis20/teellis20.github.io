@@ -12,7 +12,7 @@ body, html {
 }
 
 .hero-text {
-    text-align: center;
+    text-align: start;
     position: absolute;
     top: 30%;
     left: 50%;
@@ -20,16 +20,33 @@ body, html {
     color: white;
 }
 
-@media only screen and (max-width: 600px) {
+h1 {
+    font-family: 'Permanent Marker', cursive;
+}
+
+#myname {
+    font-size: 70px;
+}
+
+#name {
+    text-shadow: black 5px 5px;
+}
+
+
+@media only screen and (max-width: 650px) {
     .hero-text{
-        top: 40%;
-        text-align: center;
+        top: 45%;
+        /* margin-left: 10px; */
+        text-align: start;
         flex-wrap: nowrap;
+        /* position: relative; */
     }
-    h1 {
-        font-size: medium;
+
+    #myname {
+        font-size: 45px;
     }
 }
+
 
 p {
     font-size: 15px;
